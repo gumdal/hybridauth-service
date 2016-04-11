@@ -1,0 +1,7 @@
+name = Hybridauth Services
+description = Provides Facebook integration for the Services module.
+package = services
+core = 7.x
+ 
+dependencies[] = services
+dependencies[] = hybridauth

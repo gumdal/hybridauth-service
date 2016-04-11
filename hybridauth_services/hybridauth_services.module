@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_ctools_plugin_api().
+ */
+function hybridauth_services_ctools_plugin_api($owner, $api) {
+  if ($owner == 'services' && $api == 'services') {
+    return array(
+      'version' => 3,
+      'file' => 'hybridauth_services.services.inc'
+    );
+  }
+}
